@@ -19,9 +19,9 @@
 #include <HX711.h>
 
 #define SERIAL_MODE 0
-#define SD_MODE     0
-#define TC_MODE     0
-#define LC_MODE     0
+#define SD_MODE     1
+#define TC_MODE     1
+#define LC_MODE     1
 
 // Pin #def's for the thermocouples
 #define SPI_CS1   10
@@ -42,8 +42,8 @@
 // These pin def's are for teensy 4.1. The pinout for the 3.6 might be different
 
 #define SAMPLES_PER_SECONDS 10
-#define NUM_TC 5
-#define NUM_LC 5
+#define NUM_TC 3
+#define NUM_LC 3
 
 float currTime {0.0f};
 float prevTime {0.0f};
