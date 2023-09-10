@@ -1,14 +1,3 @@
-/*!
-  @file
-  This program allows you to log a thermocouple and a load cell using a teensy 4.1.
-
-
-
-  Keep in mind that 3rd-party sensor libraries are used and modified a bit.
-  After adding those libraries to the project via platformio, replace the .cpp and .h files in those libraries with the
-  .cpp and .h files in the TCLCWomboCombo directory
-*/
-
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
